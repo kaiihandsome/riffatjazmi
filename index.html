@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Usaha Buku Ferdyano</title>
+<link rel ="stylesheet" href ="style.css"/>
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="produk.html">Produk</a></li>
+     <li><a href="Bedah Buku Artikel.html">Bedah Buku Artikel</a></li>
+     <li><a href="Testimoni.html ">Testimoni</a></li>
+     <li><a href="Tampilan Testimoni.html">Tampilan Testimoni</a></li>
+     <li><a href="Video Produk Event.html">Video Produk Event</a></li>
+     <li><a href="Kontak.html">Kontak</a></li>
+  </ul>
+</nav>
+</head>
+<body>
+<div class="container">
+  <div class="stat-card">
+    <span class="counter" data-target="1000">0</span>
+    <span class="label">Pengunjung Puas</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="85">0</span>
+    <span class="label">Data Pengunjung</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="1200">0</span>
+    <span class="label">Buku Favorit</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="50">0</span>
+    <span class="label">Pengunjung Terbaik</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="99">0</span>
+    <span class="label">Rating Positif</span>
+  </div>
+</div>
+<script>
+  const counters = document.querySelectorAll('.counter');
+  
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
+      
+      // Mengatur durasi animasi agar halus
+      const speed = 150; 
+      const increment = target / speed;
+
+      if (count < target) {
+        counter.innerText = Math.ceil(count + increment);
+        setTimeout(updateCount, 15);
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    updateCount();
+  });
+</script>
+
+    <h1>Selamat Datang di Usaha Buku Kami</h1>
+    <p>Website ini berisi informasi tentang produk buku, bedah buku, dan testimoni pelanggan.</p>
+
+<h1>ripaww</h1>
+<h2>Doa yang Tak Pernah Hilang</h2>
+<p>Doa yang Tak Pernah Hilang adalah buku yang mengajak pembaca memahami bahwa setiap doa memiliki makna dan tujuan, meskipun jawabannya tidak selalu datang sesuai harapan. Dalam perjalanan hidup yang penuh ragu, lelah, dan penantian, doa menjadi penguat hati yang terus hidup di dalam diam. Buku ini menyampaikan pesan bahwa tidak ada doa yang sia-sia—semua didengar, dicatat, dan dijawab pada waktu terbaik menurut kehendak-Nya, menjadikan iman tetap tumbuh dan hati kembali tenang.</p>
+<h1>Jenis Jenis Buku by Ripaww</h1>
+<p>Sejauh ini tidak ada informasi yang jelas atau publik tentang penulis “Ripaww” sebagai penulis buku berjudul Doa yang Tak Pernah Hilang di sumber yang tersedia secara online — baik sebagai penulis terkenal, karya terdaftar, maupun daftar buku yang resmi diterbitkan. Pencarian di berbagai sumber umum tidak menemukan buku dengan judul itu yang dikaitkan dengan penulis bernama Ripaww ataupun variasi serupa (mis. Ripa sebagai nama penulis lain) dalam database buku atau situs penjualan buku yang terdaftar secara resmi.</p>
+<h1>Tips Merawat Buku by Ripaww</h1>
+<p>Merawat buku adalah langkah penting agar buku tetap awet, bersih, dan nyaman dibaca dalam waktu lama. Cara merawat buku dimulai dengan menyimpannya di tempat yang kering dan tidak lembap, karena kelembapan dapat menyebabkan jamur dan merusak kertas. Buku sebaiknya disusun rapi di rak, tidak terlalu padat agar tidak melengkung, serta dijauhkan dari sinar matahari langsung yang dapat membuat sampul dan halaman cepat pudar. Selain itu, biasakan membaca buku dengan tangan bersih, hindari melipat halaman sebagai penanda, dan gunakan pembatas buku agar kertas tidak rusak. Membersihkan rak dan buku secara berkala dari debu juga membantu menjaga kualitas buku, sehingga ilmu dan cerita di dalamnya dapat terus dinikmati dalam kondisi terbaik.</p>
+<h1>Informasi Mencari Buku Terbaik</h1>
+<p>Mencari buku terbaik membutuhkan informasi yang tepat agar pilihan sesuai dengan kebutuhan dan minat pembaca. Informasi dapat diperoleh dengan mengenali terlebih dahulu genre atau topik yang diinginkan, seperti fiksi, nonfiksi, motivasi, atau religi. Membaca ulasan pembaca, rekomendasi guru, pustakawan, atau sumber tepercaya juga membantu menilai kualitas isi buku. Selain itu, memperhatikan penulis, ringkasan isi, dan tujuan penulisan buku dapat menjadi pertimbangan penting sebelum memilih. Dengan informasi yang cukup dan selektif, proses mencari buku terbaik tidak hanya memudahkan pembaca menemukan bacaan yang bermanfaat, tetapi juga membuat pengalaman membaca menjadi lebih bermakna dan menyenangkan.</p>
+<h1>Lokasi Toko Kami</h1>
+<p>Lokasi toko kami berada di tempat yang strategis dan mudah dijangkau oleh pengunjung. Toko ini terletak di lingkungan yang aman dan nyaman, dengan akses jalan yang baik serta dekat dengan fasilitas umum sehingga memudahkan pelanggan untuk berkunjung. Area sekitar toko tertata rapi, menyediakan suasana yang tenang dan mendukung pengalaman berbelanja yang menyenangkan. Dengan lokasi yang mudah ditemukan, toko kami siap melayani pelanggan yang ingin mendapatkan produk dengan praktis dan nyaman.</p>
+<h1>Kontak Admin Toko</h1>
+<p>whatsapp:081217854467 Email:ripawwjazmi@gmail.com Instagram:@ripawwbookstore</p>
+
+</body>
+</html>
